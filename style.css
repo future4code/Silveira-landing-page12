@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    top: 0;
+    background-color: #343940;
+    width: 100%;
+    position: fixed;        
+    padding: 10px 0;
+    color: #fff;
+}
+
+footer {
+    bottom: 0;
+    background-color: #403D35;
+    width: 100%;
+    position: fixed;        
+    padding: 10px 0;
+    color: #fff;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+
+
+/* 
+CORES
+1. #343940
+2. #B4BDBF
+3. #E9F0F2
+4. #72736E
+5. #403D35
+*/
