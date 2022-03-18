@@ -44,13 +44,14 @@ body {
    align-items: stretch;
 }
 
-h1 {
+h1, h2 {
    font-family: 'Cabin-Bold';
    font-size: 2rem;
 }
 
 p, strong {
    font-size: 1.25rem;
+   margin-top: -10px;
 }
 
 a {
@@ -179,7 +180,7 @@ main {
 @media screen and (max-device-width: 420px) {
 
    /* ESTILOS GERAIS */
-   h1 {
+   h1, h2 {
       font-size: 1.5rem;
    }
 
@@ -206,5 +207,15 @@ main {
       border-radius: 15px;
       -webkit-box-shadow: 5px 5px 20px -5px #343940;
       box-shadow: 5px 5px 20px -5px #343940;
+   }
+
+   .main-about, .main-shop, .main-home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .main-home h1, .main-about h1, .main-shop h2 {
+      margin-top: -10px;
    }
 }
