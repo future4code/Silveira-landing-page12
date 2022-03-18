@@ -4,6 +4,9 @@
 ### Resumo
 Neste projeto foi desenvolvido um site estático para a 4Comfort ─ empresa do ramo de calçados com vendas online. O site possui quatro páginas cobrindo a apresentação inicial da empresa (Início), a estande para exibir os produtos (Loja), a seção com mais detalhes sobre a empresa (Sobre) e as perguntas frequentes (FAQ). A construção do site buscou tratar com zelo às questões de acessibilidade, sendo que o HTML está estruturado conforme seguindos os padrões e diretrizes do emprego adequado de tags semânticas. Além disso, a responsividade do site foi pensada utilizando o conceito de mobile first, estando implementa em uma versão para mobile e outra para desktop. Por fim, a paleta de cores foi pensada a partir do logotipo da impresa, compondo um conjunto de cores próximas do [Nord Theme](https://www.nordtheme.com/) e que buscam representar a identidade leve e moderna da marca possui.
 
+### Imprementações Futuras
+É necessário ainda integrar ao site as funcionalidade do back-end para o funcionamento do sistema e-commerce.
+
 ### Integrantes
 - [Douglas Joziel Bitencourt Freitas](https://github.com/douglas-joziel)
 - [Guilherme Arruda Câmara de Lira](https://github.com/Guilhermearrud)
