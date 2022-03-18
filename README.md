@@ -22,4 +22,10 @@ O objetivo geral deste projeto é desenvolver o site de uma empresa ~~fictícia~
 - (Update 18/03/2022) [4comfort.surge.sh](http://landing-page12-4comfort.surge.sh/)
 
 ### Imagens
-![plot](./draft/pain-palette.jpeg)
+![plot](./draft/Captura de tela de 2022-03-18 13-46-12.png)
+
+![plot](./draft/Captura de tela de 2022-03-18 13-46-24.png)
+
+![plot](./draft/Captura de tela de 2022-03-18 13-46-38.png)
+
+![plot](./draft/Captura de tela de 2022-03-18 13-46-47.png)
