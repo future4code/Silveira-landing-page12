@@ -13,7 +13,7 @@ Neste projeto foi desenvolvido um site estático para a 4Comfort ─ empresa do 
 - [Fabio Matheus Brito Ferreira](https://github.com/FabioMatheus777)
 
 ### Objetivo Geral
-O objetivo geral deste projeto é desenvolver o site de uma empresa ~~fictícia~~ chamada de 4Comfort ─ a empresa atua no ramo de calçados (tênis) com vendas online dos seus produtos.
+O objetivo geral deste projeto é desenvolver o site de uma empresa fictícia chamada de 4Comfort ─ a empresa atua no ramo de calçados (tênis) com vendas online dos seus produtos.
 
 ### Objetivos Específicos
 1. Desenvolver a habilidade trabalho remoto em equipe;
@@ -27,7 +27,7 @@ O objetivo geral deste projeto é desenvolver o site de uma empresa ~~fictícia~
 ### Imagens
 ![plot](./draft/print-01.png)
 
-![plot](./draft/print-02.png)
+![plot](./draft/print-01.png)
 
 ![plot](./draft/print-03.png)
 
