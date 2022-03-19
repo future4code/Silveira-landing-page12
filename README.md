@@ -27,7 +27,7 @@ O objetivo geral deste projeto é desenvolver o site de uma empresa fictícia ch
 ### Imagens
 ![plot](./draft/print-01.png)
 
-![plot](./draft/print-01.png)
+![plot](./draft/print-02.png)
 
 ![plot](./draft/print-03.png)
 
