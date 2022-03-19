@@ -1,3 +1,12 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: 'Assistant-Regular';
+   color: var(--dark-gray);
+box-sizing: border-box;  
+}
+
 @font-face {
    font-family: 'Cabin-Bold';
    src: url('./fonts/Cabin-VariableFont_wght.ttf') format('truetype');
@@ -30,7 +39,8 @@ Paleta de cores:
 }
 
 /* ESTILOS GERAIS */
-body {
+
+/*body {
    font-family: 'Assistant-Regular';
    color: var(--dark-gray);
    margin: 0;
@@ -43,7 +53,7 @@ body {
    justify-items: stretch;
    align-items: stretch;
 }
-
+*/
 h1, h2 {
    font-family: 'Cabin-Bold';
    font-size: 2rem;
@@ -120,7 +130,7 @@ details>p {
 }
 
 .footer .icon {
-   height: 35px;
+   height: 65px;
    padding: 10px;
    transition: transform .2s;
 }
@@ -221,5 +231,135 @@ details>p {
 
    .main-home h1, .main-about h1, .main-shop h2 {
       margin-top: -10px;
+   }
+}
+
+/*Slide*/
+
+.col-100 {
+width: 100%;
+height: 700px;
+}
+
+.slide img{
+   width: 100%;
+   height: 650px;
+}
+
+
+/*Carousel*/
+.slider{
+      height: 67vh;
+   width: 100%;
+}
+
+.slider img {
+   width: 100%;
+   height: 600px;
+}
+
+/* Em destaque*/
+
+.position {
+   padding-top: 30px;
+   height: 700px;
+   width: 100%;
+}
+.position h2 {
+   padding-top: 18px;
+   text-align: center;
+}
+.position h3{
+   text-align: center;
+   font-weight: bolder;
+}
+.more-comfort {
+   height: 500px;
+   width: 100%;
+}
+.em-destaque {
+   margin-top: 10px;
+   width: 25vw;
+   height: 30vh;
+}
+
+.em-destaque img {
+   width: 25vw;
+   height: 30vh;  
+   border-radius: 7%;
+}
+
+.img-center{
+   width: 35vw;
+   height: 30vh;
+}
+.img-center img {
+   width: 35vw;
+   height: 40vh;
+   border-radius: 7%;
+}
+
+.img-right{
+   margin-top: 10px;
+   width: 25vw;
+   height: 70vh;
+}
+.img-right img {
+   width: 100%;
+   height: 60vh;
+   border-radius: 7%;
+}
+.more-comfort{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.veja-mais{
+   width: 100%;
+   height: 50vh;
+   display: flex;
+   justify-content: space-between;
+  
+
+}
+
+
+.products{
+   width: 400px;
+   height: 370px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 20px;
+}
+.products button {
+   border: none;
+   width: 90px;
+   height: 50px;
+   background-color: var(--dark-brown);
+   margin-top: 60px;
+   border-radius: 10px;
+   color: white;
+   text-align: center;
+}
+.products img {
+   width: 270px;
+   height: 220px;
+}
+
+.h2-mais{
+   text-align: center;
+}
+
+
+
+@media screen and (max-device-width: 667px) {
+
+
+   .products{
+      width: 400px;
+      height: 370px;
+      display: flex;
+      padding-left: 20px;
    }
 }

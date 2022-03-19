@@ -1,53 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-      <link rel="stylesheet" href="./styles.css" type="text/css">
-      <script src="./index.js" type="application/javascript" defer></script>
-      <title>4Comfort - Início</title>
-   </head>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="./styles.css" type="text/css">
 
-   <body>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="icon" href="./img/tenis.png">
+   <script src="./index.js" type="application/javascript" defer></script>
 
-      <!-- CABEÇALHO -->
-      <header role="heading" class="header">
-         <img src="./img/logo-4comfort-tiny.png" alt="null" role="logo" class="logo">
-         <nav role="navigation" class="menu">
-            <a href="./index.html"><img src="./img/icon-home.png" alt="null" role="logo" class="icon"><span>INÍCIO</span></a>
-            <a href="./src/shop.html"><img src="./img/icon-shop.png" alt="null" role="logo" class="icon"><span>LOJA</span></a>
-            <a href="./src/about.html"><img src="./img/icon-about.png" alt="null" role="logo" class="icon"><span>SOBRE</span></a>
-            <a href="./src/faq.html"><img src="./img/icon-faq.png" alt="mull" role="logo" class="icon"><span>FAQ</span></a>
-         </nav>
-      </header>
 
-      <!-- CONTEÚDO PRINCIPAL - INÍCIO -->
-      <main role="main" class="main-home">
-         <section role="section" class="section">
-            <div class="section-left">
-               <img src="./img/photo-cover-small.jpeg" alt="Imagem com uma pessoa mergulhando na água com os pés para fora mostrando os tênis">
+   <title>4Comfort - Início</title>
+</head>
+
+<body>
+
+   <!-- CABEÇALHO -->
+   <header role="heading" class="header">
+      <img src="./img/logo-4comfort-tiny.png" alt="null" role="logo" class="logo">
+      <nav role="navigation" class="menu">
+         <a href="./index.html"><img src="./img/icon-home.png" alt="null" role="logo"
+               class="icon"><span>INÍCIO</span></a>
+         <a href="./src/shop.html"><img src="./img/icon-shop.png" alt="null" role="logo"
+               class="icon"><span>LOJA</span></a>
+         <a href="./src/about.html"><img src="./img/icon-about.png" alt="null" role="logo"
+               class="icon"><span>SOBRE</span></a>
+         <a href="./src/faq.html"><img src="./img/icon-faq.png" alt="mull" role="logo" class="icon"><span>FAQ</span></a>
+      </nav>
+   </header>
+   <div class="slider">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="d-block w-100" src="./img/t3.png" alt="Primeiro Slide">
             </div>
-            <div class="section-right">
-               <h1>Mergulhe no conforto: seus pés merecem</h1>
-               <p>
-                  A 4Comfort é uma nova empresa cuja proposta é oferecer o tênis mais confortável possível. Nossos produtos são voltados para profissionais que trabalham em ambientes casuais ─ startups, empresas de tecnologia, escritórios modernos etc. O modelo de vendas online que adotamos valoriza os desejos com exclusividade para cada cliente, da escolha das cores ao modelo e número, nossa equipe de atendimento estará 24 horas disponível para lhe servir melhor.
-               </p>
-               <a href="./src/shop.html"><button role="button" type="button" class="button">VER PRODUTOS</button></a>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="./img/t3.png" alt="Segundo Slide">
             </div>
+            <div class="carousel-item">
+               <img class="d-block w-100" src="./img/t3.png" alt="Terceiro Slide">
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+         </a>
+      </div>
+   </div>
+
+   <!-- CONTEÚDO PRINCIPAL - INÍCIO -->
+   <main role="main" class="main-home">
+
+
+
+      <section role="section" class="section">
+         <div class="section-left">
+            <img src="./img/photo-cover-small.jpeg"
+               alt="Imagem com uma pessoa mergulhando na água com os pés para fora mostrando os tênis">
+         </div>
+         <div class="section-right">
+            <h1>Mergulhe no conforto: seus pés merecem</h1>
+            <p>
+               A 4Comfort é uma nova empresa cuja proposta é oferecer o tênis mais confortável possível. Nossos produtos
+               são voltados para profissionais que trabalham em ambientes casuais ─ startups, empresas de tecnologia,
+               escritórios modernos etc. O modelo de vendas online que adotamos valoriza os desejos com exclusividade
+               para cada cliente, da escolha das cores ao modelo e número, nossa equipe de atendimento estará 24 horas
+               disponível para lhe servir melhor.
+            </p>
+            <a href="./src/shop.html"><button role="button" type="button" class="button">VER PRODUTOS</button></a>
+         </div>
+
+      </section>
+   </main>
+
+   <main class="position">
+      <h3>Com você em todos os momentos</h3>
+
+      <content class="more-comfort">
+
+         <section class="em-destaque">
+            <img src="./img/d6.jpg">
+         </section>
+         <section class="img-center">
+            <img src="./img/t4.jpg">
 
          </section>
-      </main>
+         <section class="img-right">
+            <img src="./img/sp6.jpg">
 
-      <!-- RODAPÉ -->
-      <footer role="contentinfo" class="footer">
-         <a href="https://www.instagram.com/" target="_blank"><img src="./img/icon-instagram.png" alt="Ícone clicável para acessar o nosso perfil no Instagram" role="link" class="icon"></a>
-         <a href="https://www.facebook.com/" target="_blank"><img src="./img/icon-facebook.png" alt="Ícone clicável para acessar o nosso perfil no Facebook" role="link" class="icon"></a>
-         <a href="https://www.twitter.com/" target="_blank"><img src="./img/icon-twitter.png" alt="Ícone clicável para acessar o nosso perfil no Twitter" role="link" class="icon"></a>
-      </footer>
+         </section>
+      </content>
 
-   </body>
+   </main>
+
+   <h2 class="h2-mais">Mais vendidos</h2>
+
+   <main class="veja-mais">
+
+               <div class="products">
+                  <img src="./img/more1.jpg" alt="" class="img-card">
+                  <h3>Nike 201</h3>
+                 
+                  <button>Buy Now</button>
+               </div>
+
+               <div class="products">
+                  <img src="./img/more2.jpg" alt="" class="img-card">
+                  <h3>Nike 204</h3>
+                  <button>Buy Now</button>
+               </div>
+
+               <div class="products">
+                  <img src="./img/more3.jpg" alt="" class="img-card">
+                  <h3>Nikeb 306</h3>
+                  <button>Buy Now</button>
+               </div>
+               <div class="products">
+                  <img src="./img/more4.jpg" alt="" class="img-card">
+                  <h3>Nike 207</h3>
+                  <button>Buy Now</button>
+               </div>
+
+   </main>
+
+   <!-- RODAPÉ -->
+   <footer role="contentinfo" class="footer">
+      <a href="https://www.instagram.com/" target="_blank"><img src="./img/icon-instagram.png"
+            alt="Ícone clicável para acessar o nosso perfil no Instagram" role="link" class="icon"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./img/icon-facebook.png"
+            alt="Ícone clicável para acessar o nosso perfil no Facebook" role="link" class="icon"></a>
+      <a href="https://www.twitter.com/" target="_blank"><img src="./img/icon-twitter.png"
+            alt="Ícone clicável para acessar o nosso perfil no Twitter" role="link" class="icon"></a>
+   </footer>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+</body>
 
 </html>
