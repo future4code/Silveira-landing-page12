@@ -1,0 +1,225 @@
+@font-face {
+   font-family: 'Cabin-Bold';
+   src: url('./fonts/Cabin-VariableFont_wght.ttf') format('truetype');
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Assistant-Regular';
+   src: url('./fonts/Assistant-VariableFont_wght.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+
+/*
+Paleta de cores:
+#343940 -> Cinza escuro
+#B4BDBF -> Cinza claro
+#E9F0F2 -> Branco
+#72736E -> Marrom claro
+#403D35 -> Marrom escuro
+*/
+
+:root {
+   --dark-gray: #343940;
+   --light-gray: #B4BDBF;
+   --light-blue: #DAE5E8;
+   --light-brown: #72736E;
+   --dark-brown: #403D35;
+}
+
+/* ESTILOS GERAIS */
+body {
+   font-family: 'Assistant-Regular';
+   color: var(--dark-gray);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   min-height: 100vh;
+   max-width: 100vw;
+   display: grid;
+   grid-template-rows: 90px 1fr 90px;
+   justify-items: stretch;
+   align-items: stretch;
+}
+
+h1, h2 {
+   font-family: 'Cabin-Bold';
+   font-size: 2rem;
+}
+
+p, strong {
+   font-size: 1.25rem;
+   margin-top: -10px;
+}
+
+a {
+   text-decoration: none;
+   color: var(--dark-gray);
+}
+
+/* CABEÇALHO */
+.header {
+   background-color: var(--light-blue);
+   border-bottom: 1px solid var(--light-gray);
+   padding: 20px;
+   font-family: 'Cabin-Bold';
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   top: 0;
+}
+
+.header .icon {
+   height: 30px;
+   padding: 10px;
+}
+
+.header .logo {
+   height: 60px;
+}
+
+.header .menu {
+   display: flex;
+}
+
+.menu a {
+   display: flex;
+   align-items: center;
+}
+
+.menu span {
+   padding-right: 30px;
+}
+
+.menu>a:last-child span {
+   padding-right: 0;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+   padding: 20px;
+}
+
+details>p {
+   margin-top: 10px;
+}
+
+/* RODAPÉ */
+.footer {
+   background-color: var(--light-blue);
+   border-top: 1px solid var(--light-gray);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: sticky;
+   bottom: 0;
+}
+
+.footer .icon {
+   height: 35px;
+   padding: 10px;
+   transition: transform .2s;
+}
+
+.footer .icon:hover {
+   transform: scale(1.5);
+}
+
+/* CONTEÚDO PRINCIPAL - ESQUERDA/DIREITA */
+.main-about, .main-shop, .main-home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section {
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   justify-items: stretch;
+   align-items: center;
+}
+
+.section-left {
+   display: flex;
+   justify-content: end;
+   margin: 20px;
+}
+
+.section-left img {
+   height: calc(100vh - 300px);
+   border-radius: 15px;
+   -webkit-box-shadow: 5px 5px 20px -5px var(--dark-gray);
+   box-shadow: 5px 5px 20px -5px var(--dark-gray);
+}
+
+.section-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 20px;
+}
+
+.button {
+   padding: 10px 20px;
+   align-self: start;
+   background-color: var(--dark-gray);
+   border: 2px solid white;
+   color: white;
+   font-family: 'Cabin-Bold';
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.button:hover {
+   color: var(--dark-gray);
+   background-color: white;
+   border: 2px solid var(--dark-gray);
+}
+
+/* AJUSTES PARA MOBILE */
+@media screen and (max-device-width: 420px) {
+
+   /* ESTILOS GERAIS */
+   h1, h2 {
+      font-size: 1.5rem;
+   }
+
+   p, strong {
+      font-size: 1rem;
+   }
+
+   /* CABEÇALHO */
+   .header .logo {
+      height: 45px;
+   }
+
+   .menu span {
+      display: none;
+   }
+
+   /* CONTEÚDO PRINCIPAL - ESQUERDA/DIREITA */
+   .section-left, .section-right {
+      grid-column-end: span 2;
+   }
+
+   .section-left img {
+      height: calc(100vw - 80px);
+      border-radius: 15px;
+      -webkit-box-shadow: 5px 5px 20px -5px #343940;
+      box-shadow: 5px 5px 20px -5px #343940;
+   }
+
+   .main-about, .main-shop, .main-home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .main-home h1, .main-about h1, .main-shop h2 {
+      margin-top: -10px;
+   }
+}
